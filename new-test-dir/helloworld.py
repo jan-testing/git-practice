@@ -1,11 +1,10 @@
 # This is a very informative comment
 
 import time
-import mytime as mt
 
-print(time.time())
-print(mt.dtNow())
-
+print('The unix timestamp is:')
+print(int(time.time()))
+print()
 print('Oh yeah...')
 print('Hello World!')
 
